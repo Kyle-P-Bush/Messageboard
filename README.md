@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The messageboard app is a way for me to learn Ruby on Rails and generally get
+exposed to the web development process. The gems used will be listed below.
+This is a basic CRUD app that will allow users to sign up/log in, create, read,
+update, and delete messages on the board. 
 
-Things you may want to cover:
+# Ruby Version 3.0.3
 
-* Ruby version
+# Gems used
+* Devise - implementing user management and attaching messages to user's accounts
 
-* System dependencies
+* Guard - For live reloading as files are edited during development
 
-* Configuration
+* Guard LiveReload
 
-* Database creation
+* Simple Form - Allows for simple creation of forms
 
-* Database initialization
+* Bulma - Really simple CSS framework
 
-* How to run the test suite
+* Better Errors
 
-* Services (job queues, cache servers, search engines, etc.)
+* Gravatar - For avatar images (not currently properly implemented)
 
-* Deployment instructions
 
-* ...
